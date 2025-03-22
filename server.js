@@ -21,8 +21,9 @@ connectDB();
 const corsConfig={
     origin:"*",
     credentials:true,
-    methods:["GET","POST"]
-}
+    methods:["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
+};
+app.options("*",cors(corsConfig));
 // Middleware
 app.use(cors(corsConfig));
 app.use(express.json()); // Middleware to parse JSON requests
