@@ -7,7 +7,7 @@ C:.
 |   output.txt
 |   package-lock.json
 |   package.json
-|   server.js
+|   index.js
 |   structure.txt
 |   
 +---node_modules
@@ -868,7 +868,7 @@ C:.
 |   |   |   |   engine.io.d.ts
 |   |   |   |   engine.io.js
 |   |   |   |   server.d.ts
-|   |   |   |   server.js
+|   |   |   |   index.js
 |   |   |   |   socket.d.ts
 |   |   |   |   socket.js
 |   |   |   |   transport.d.ts
@@ -3126,8 +3126,8 @@ C:.
 |   |   |           events.js.map
 |   |   |           monitor.js
 |   |   |           monitor.js.map
-|   |   |           server.js
-|   |   |           server.js.map
+|   |   |           index.js
+|   |   |           index.js.map
 |   |   |           server_description.js
 |   |   |           server_description.js.map
 |   |   |           server_selection.js
@@ -5828,7 +5828,7 @@ C:.
 |   |           stream.js
 |   |           subprotocol.js
 |   |           validation.js
-|   |           websocket-server.js
+|   |           websocket-index.js
 |   |           websocket.js
 |   |           
 |   \---yallist
