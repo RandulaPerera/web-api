@@ -18,9 +18,13 @@ const server = http.createServer(app);
 // Connect to MongoDB
 connectDB();
 
-
+const corsConfig={
+    origin:"*",
+    credentials:true,
+    methods:["GET","POST"]
+}
 // Middleware
-app.use(cors());
+app.use(cors(corsConfig));
 app.use(express.json()); // Middleware to parse JSON requests
 
 
